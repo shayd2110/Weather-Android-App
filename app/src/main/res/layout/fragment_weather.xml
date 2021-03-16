@@ -1,0 +1,248 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layotId"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/SunnyTextColorAndShadow"
+    tools:context="com.example.weatherwithfragment.WeatherActivity" >
+
+<!--    android:text="@string/city_dummy"-->
+    <TextView
+
+        android:id="@+id/city_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+<!--    android:text="@string/last_update"-->
+    <TextView
+        android:id="@+id/updated_field"
+        
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city_field"
+
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="13sp" />
+
+<!--            android:text="@string/weather_foggy"-->
+    <TextView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/updated_field"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/weather"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="70sp"
+        />
+
+<!--        android:text="@string/few_clouds"-->
+    <TextView
+        android:id="@+id/description_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_icon"
+        android:layout_centerHorizontal="true"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+         />
+
+    <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/weather_scroll"
+    android:layout_below="@+id/description_field"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll_relative">
+
+<!--        android:text="@string/morning"-->
+
+        <TextView
+            android:id="@+id/morning_field"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerHorizontal="true"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--        android:text="@string/afterNoon"-->
+
+        <TextView
+            android:id="@+id/afternoon_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/morning_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--                    android:text="@string/evening"-->
+        <TextView
+            android:id="@+id/evening_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/afternoon_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--        android:text="@string/night"-->
+
+        <TextView
+            android:id="@+id/night_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/evening_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--        android:text="@string/min_temp"-->
+
+        <TextView
+            android:id="@+id/min_temp_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/night_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--                    android:text="@string/max_temp"
+-->
+        <TextView
+            android:id="@+id/max_temp_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/min_temp_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--                   android:text="@string/humidity"
+-->
+        <TextView
+            android:id="@+id/humidity_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/max_temp_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--                  android:text="@string/pressure"
+-->
+        <TextView
+            android:id="@+id/pressure_field"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/humidity_field"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:elegantTextHeight="true"
+            android:freezesText="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <RelativeLayout
+            android:id="@+id/windLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pressure_field">
+
+<!--                            android:text="wind soeed 1.54m/s N"
+-->
+            <TextView
+                android:id="@+id/wind_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.sdsmdg.harjot.longshadows.LongShadowsWrapper
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/wind_field"
+                app:animateShadow="true">
+
+                <com.sdsmdg.harjot.longshadows.LongShadowsImageView
+                    android:id="@+id/wind_icon_shdow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/twotone_navigation_white_36" />
+            </com.sdsmdg.harjot.longshadows.LongShadowsWrapper>
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/wind_logo"-->
+            <!--                android:layout_width="22dip"-->
+            <!--                android:background="@color/white"-->
+            <!--                android:layout_height="22dip"-->
+            <!--                app:srcCompat="@mipmap/wind_dir" />-->
+
+        </RelativeLayout>
+
+
+<!--            android:text="16.2 C°"
+-->
+        <TextView
+            android:id="@+id/current_temperature_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/windLayout"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+</RelativeLayout>

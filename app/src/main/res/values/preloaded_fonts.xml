@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arima_madurai</item>
+        <item>@font/arima_madurai_thin</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/courgette</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/indie_flower</item>
+        <item>@font/josefin_slab_semibold</item>
+        <item>@font/josefin_slab_thin</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/poiret_one</item>
+        <item>@font/righteous</item>
+        <item>@font/signika_semibold</item>
+        <item>@font/tillana_semibold</item>
+    </array>
+</resources>

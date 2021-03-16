@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "728886026073",
+    "firebase_url": "https://android-weather-project-default-rtdb.firebaseio.com",
+    "project_id": "android-weather-project",
+    "storage_bucket": "android-weather-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728886026073:android:23bda979e5a7b3765fb648",
+        "android_client_info": {
+          "package_name": "com.example.newweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728886026073-8e9trvint9cf247cuados3be9pvsov1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHKPwpd10Cv63-7hWxLntrD4YK4oGy4Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728886026073-8e9trvint9cf247cuados3be9pvsov1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728886026073:android:c0b35d4086d564f85fb648",
+        "android_client_info": {
+          "package_name": "com.example.weatherwithfragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728886026073-8e9trvint9cf247cuados3be9pvsov1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHKPwpd10Cv63-7hWxLntrD4YK4oGy4Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728886026073-8e9trvint9cf247cuados3be9pvsov1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

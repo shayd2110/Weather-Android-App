@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name= "android:textViewStyle" > @style/RobotoTextViewStyle </item>
+        <item name= "android:buttonStyle" > @style/RobotoButtonStyle </item>
+
+
+    </style>
+    <style name= "RobotoTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > @font/arima_madurai </item>
+    </style>
+    <style name= "RobotoButtonStyle" parent= "android:Widget.Holo.Button" >
+        <item name= "android:fontFamily" >@font/tillana_semibold </item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CloudyTextColorAndShadow">
+        <item name="android:textColor">@color/blanched_almond</item>
+        <item name="android:shadowColor">@color/aqua</item>
+        <item name="android:shadowRadius">25</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:textStyle">bold</item>
+<!--        <item name="android:background">@drawable/cloudy</item>-->
+    </style>
+
+    <style name="ThunderTextColorAndShadow">
+
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:shadowColor">@color/aquamarine</item>
+        <item name="android:shadowRadius">25</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:textStyle">bold</item>
+
+        <!--        <item name="android:background">@drawable/cloudy</item>-->
+    </style>
+    <style name="SunnyTextColorAndShadow">
+
+        <item name="android:textColor">@color/azure</item>
+        <item name="android:shadowColor">@color/dark_violet</item>
+        <item name="android:shadowRadius">25</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:textStyle">bold</item>
+
+        <!--        <item name="android:background">@drawable/cloudy</item>-->
+    </style>
+    <style name="week_style">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="RainyTextColorAndShadow">
+
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:shadowColor">@color/my_red</item>
+        <item name="android:shadowRadius">25</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ambientShadowAlpha">1</item>
+        <item name="android:spotShadowAlpha">1</item>
+
+        <!--        <item name="android:background">@drawable/cloudy</item>-->
+    </style>
+    <style name="DrizzleTextColorAndShadow">
+
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:shadowColor">@color/very_light_sky_blue1</item>
+        <item name="android:shadowRadius">25</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ambientShadowAlpha">1</item>
+        <item name="android:spotShadowAlpha">1</item>
+
+        <!--        <item name="android:background">@drawable/cloudy</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#220457</color>
+    <color name="colorAccent">#5C2521</color>
+
+
+</resources>
